@@ -1,0 +1,35 @@
+body {
+	background: #666 url("greygrad.png") repeat-x;
+	color: black;
+	margin: 10px auto;
+	font-size: 12pt;
+	font-family: Arial, sans-serif;
+	line-height: 1.4em;
+}
+#body {
+  background: white;
+	padding-right: 2em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	border-bottom: 2px solid #666;
+	border-left: 2px solid #666;
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	margin: auto;
+	width: 900px;
+}
+img { border: none; }
+h1,h2,h3,h4,h5
+{
+	margin-bottom: .25em;
+}
+div {
+	padding-left: 1em;
+}
+.wild { color: red; }
+.even {
+  background: lightgray;
+}
+.odd {
+  background: white;
+}

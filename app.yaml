@@ -1,0 +1,14 @@
+application: rpgbuddy
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /_wave/.*
+  script: wave_robot.py
+- url: /(.*\.(html|css|png|jpg|gif))
+  static_files: static/\1
+  upload: static/(.*\.(html|css|png|jpg|gif))
+- url: /
+  static_files: static/index.html
+  upload: static/index.html

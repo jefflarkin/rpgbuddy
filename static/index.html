@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xml:lang="en-US"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>RPG Buddy for Wave</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Jeff Larkin" name="author" />
+    <meta content="index,nofollow" name="robots" />
+    <meta content="vi" name="generator" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="body">
+      <h1 id="title">RPG Buddy for Wave</h1>
+      <hr/>
+      <h2>Introduction</h2>
+      <p>RPG Buddy for Wave can be used for playing dice-based role playing games in Google Wave.  To use, 
+      add rpgbuddy@appspot.com to your wave.  Once added, it will
+      replace strings of the following formats with dice rolls:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Roll String</th>
+            <th>Example Output</th>
+            <th>Explanation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="even">
+            <td>4d6</td>
+            <td>[ 3 6 1 <strong class="wild">1</strong> ] = <strong>11</strong></td>
+            <td>Roll four, six-sided dice.</td>
+          </tr><tr class="odd">
+            <td>3d6o6</td>
+            <td>[ 5 1 <strong class="wild">6</strong> 5 ] = <strong>12</strong></td>
+            <td>Roll three, six-sided dice, the final die should be rerolled (remain open) if a six is rolled.</td>
+          </tr><tr class="even">
+            <td>1d20+2</td>
+            <td>[ <strong class="wild">20</strong> + 2 ] = <strong>22</strong></td>
+            <td>Roll one, twenty-sided die and add two to the result.</td>
+          </tr><tr class="odd">
+            <td>5d6o6+1
+            <td>[ 4 4 5 6 <strong class="wild">1</strong> + 1 ] = <strong>21</strong></td>
+            <td>Roll five, six-sided dice, remain open if a six is rolled last, then add one to the result.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Notice that the final die rolled is highlighted, in case is holds significance, and the result is 
+      made bold for convenience.</p>
+    </div>
+  </body>
+</html>
