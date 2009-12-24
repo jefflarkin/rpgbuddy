@@ -20,7 +20,7 @@ def OnBlipSubmitted(properties, context):
 if __name__ == '__main__':
   myRobot = robot.Robot('RPG Buddy', 
       image_url='http://rpgbuddy.appspot.com/dice.gif',
-      version='2',
+      version='3',
       profile_url='http://rpgbuddy.appspot.com/')
   myRobot.RegisterHandler(events.WAVELET_SELF_ADDED, OnRobotAdded)
   myRobot.RegisterHandler(events.BLIP_SUBMITTED, OnBlipSubmitted)

@@ -30,7 +30,7 @@ def roll(text):
         output = "%s <strong style=\"color: red\">%d</strong>"%(output, last)
       else:
         output = "%s %d"%(output, last)
-    while (match.group(3) != '') and (last == int(match.group(3))):
+    while (match.group(3) != '') and (last >= int(match.group(3))):
       last = randint(1,int(match.group(2)))
       rolls.append(last)
       sum += last
