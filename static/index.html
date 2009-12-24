@@ -18,7 +18,8 @@ xmlns="http://www.w3.org/1999/xhtml">
       <h2>Introduction</h2>
       <p>RPG Buddy for Wave can be used for playing dice-based role playing games in Google Wave.  To use, 
       add rpgbuddy@appspot.com to your wave.  Once added, it will
-      replace strings of the following formats with dice rolls:</p>
+      replace strings of the following formats with dice rolls when
+      enclosed in double square brackets:</p>
       <table>
         <thead>
           <tr>
@@ -29,19 +30,19 @@ xmlns="http://www.w3.org/1999/xhtml">
         </thead>
         <tbody>
           <tr class="even">
-            <td>4d6</td>
+            <td>[[4d6]]</td>
             <td>[ 3 6 1 <strong class="wild">1</strong> ] = <strong>11</strong></td>
             <td>Roll four, six-sided dice.</td>
           </tr><tr class="odd">
-            <td>3d6o6</td>
+            <td>[[3d6o6]]</td>
             <td>[ 5 1 <strong class="wild">6</strong> 5 ] = <strong>12</strong></td>
             <td>Roll three, six-sided dice, the final die should be rerolled (remain open) if a six is rolled.</td>
           </tr><tr class="even">
-            <td>1d20+2</td>
+            <td>[[1d20+2]]</td>
             <td>[ <strong class="wild">20</strong> + 2 ] = <strong>22</strong></td>
             <td>Roll one, twenty-sided die and add two to the result.</td>
           </tr><tr class="odd">
-            <td>5d6o6+1
+            <td>[[5d6o6+1]]</td>
             <td>[ 4 4 5 6 <strong class="wild">1</strong> + 1 ] = <strong>21</strong></td>
             <td>Roll five, six-sided dice, remain open if a six is rolled last, then add one to the result.</td>
           </tr>
